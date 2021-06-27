@@ -1,4 +1,4 @@
-FROM alpine:3.14.0 AS builder-base
+FROM alpine:3.12 AS builder-base
 # General Build System:
 RUN apk -U add \
         git \
